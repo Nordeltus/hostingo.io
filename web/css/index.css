@@ -1,0 +1,95 @@
+@import "https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700";
+*{outline:none}
+html,body{background:#f4432b;font-family:'Work Sans',sans-serif;letter-spacing:-1.5px;margin:0;padding:0}
+a{text-decoration:none;color:inherit}
+#general{text-align:center;color:#fda094}
+.cbi{clear:both!important}
+#redes .redes a,.modal input{box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box}
+.dropzone,.dropzone:hover,.dropzone .dz-default.dz-message,.dropzone .dz-default.dz-message:hover,ul.listarch li:after,ul.listarch li:hover:after,.modal{transition:.3s;-moz-transition:.3s;-o-transition:.3s;-webkit-transition:.3s;-ms-transition:.3s}
+.dropzone{background:#f4432b;color:#fff;box-shadow:0 2px 15px rgba(0,0,0,.15);border:none;border-radius:3px;font-size:25px;font-weight:300;text-align:center;max-width:600px;min-height:0;max-height:80vh;margin:0 auto;padding:50px 0;overflow:auto}
+.dropzone:hover{background:#f5462d;box-shadow:0 0 25px rgba(0,0,0,.15);opacity:1}
+.dropzone span.lnr.lnr-cloud-upload{font-size:50px;color:#fff;display:block;opacity:.6}
+.dropzone:hover span.lnr.lnr-cloud-upload{opacity:1}
+.dropzone .dz-default.dz-message{margin:0;padding:0}
+.dropzone .dz-default.dz-message strong{font-weight:500}
+p.link{font-size:20px}
+p.link a{color:#fff;opacity:.8}
+p.link a:hover,.pasos .paso a:hover{text-decoration:underline;opacity:1}
+#contacto,#subir,#quesomos,#archivos,#redes,.mit{-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;transform-style:preserve-3d;height:100vh;width:100%;position:relative}
+.centrado{position:relative;top:50%;transform:translateY(-50%)}
+.linkfixed{width:100%;position:absolute;bottom:15px;left:0}
+#subir .fd{background:-moz-linear-gradient(top,rgba(240,130,235,0) 0%,rgba(240,130,235,1) 100%);background:-webkit-linear-gradient(top,rgba(240,130,235,0) 0%,rgba(240,130,235,1) 100%);background:linear-gradient(to bottom,rgba(240,130,235,0) 0%,rgba(240,130,235,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00f082eb',endColorstr='#f082eb',GradientType=0);width:100%;height:100%;position:absolute;z-index:1;pointer-events:none;opacity:.5}
+#quesomos{background:#5abeeb;background:-moz-linear-gradient(top,rgba(90,190,235,1) 0%,rgba(130,220,245,1) 100%);background:-webkit-linear-gradient(top,rgba(90,190,235,1) 0%,rgba(130,220,245,1) 100%);background:linear-gradient(to bottom,rgba(90,190,235,1) 0%,rgba(130,220,245,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5abeeb',endColorstr='#82dcf5',GradientType=0);color:#fff;overflow:hidden}
+#quesomos h1{font-size:50px;margin:0;padding:0}
+#quesomos p{font-size:25px;font-weight:300;max-width:700px;margin:25px auto;opacity:.9}
+#quesomos hr{background:#fff;border:0;width:50%;max-width:250px;height:1px;margin:0 auto 25px;display:inline-block;opacity:.4}
+#contacto{background:#3c3c3c;color:#fff;margin-top:-30px}
+#contacto input,#contacto textarea,#contacto button,ul.listarch{border:none;border-radius:3px;font-family:'Work Sans',sans-serif;font-size:18px;color:#414141;letter-spacing:-1.5px;width:100%;margin-bottom:15px;padding:10px;display:block;outline:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box}
+#contacto form{text-align:left;max-width:400px;margin:0 auto}
+#contacto label{font-size:18px;font-weight:300;opacity:.6}
+#contacto textarea{min-height:120px;resize:none}
+#contacto button{background:#f26188;font-weight:bold;font-size:25px;letter-spacing:0;color:#fff;padding:15px 0;opacity:.8}
+#contacto button:hover{opacity:1;cursor:pointer}
+#contacto h1{font-size:45px;text-align:center}
+.pasos{width:80%;display:table;margin:0 auto}
+.pasos .paso{display:table-cell;width:calc(100%/3)}
+.pasos .paso p{font-size:20px!important;margin:0}
+.pasos .paso span{background:#fff;box-shadow:0 2px 5px rgba(0,0,0,.2);border-radius:100%;font-size:40px;width:50px;line-height:50px;color:#5BC0EB;display:block;margin:0 auto}
+.pasos .paso a{font-weight:500}
+.mit{width:50%;float:left}
+.carac .caracmin{font-size:55px;font-weight:300;line-height:calc(100vh/3);position:relative}
+.carac .caracmin span.lnr,.carac .caracmin strong:before{font-weight:300;font-size:35px;margin-top:50px;width:100%;position:absolute;left:0}
+.carac .caracmin span.lnr{font-size:85px;margin-top:25px;z-index:-1;opacity:.5}
+.carac .caracmin:nth-child(1) strong:before{content:'Espacio en disco'}
+.carac .caracmin:nth-child(2) strong:before{content:'Auto borrado'}
+.carac .caracmin:nth-child(3) strong:before{content:'Sin registro'}
+ul.listarch,ul.listarch li{text-align:left;margin:0;padding:0;list-style:none}
+ul.listarch{background:#fff;border-radius:3px;max-width:960px;max-height:50vh;margin:0 auto;margin-bottom:20px;overflow:auto}
+ul.listarch li{border-bottom:solid 1px rgba(0,0,0,.1);font-weight:300;font-size:16px;letter-spacing:0;color:#000;text-indent:15px;padding-left:25px;position:relative}
+ul.listarch li:after,ul.listarch li:before,.modal h1:before{font-family:'Linearicons-Free';font-size:20px;content:'\e877';position:absolute;top:16px;right:10px;transform:rotate(45deg)}
+.modal h1:before,ul.listarch li:before{color:#f4432b;content:'\e81d';top:19px;left:-5px;right:auto;transform:none}
+ul.listarch li:hover{color:#f4432b;cursor:pointer}
+ul.listarch li:hover:after{top:14px;transform:rotate(90deg)}
+ul.listarch li a.link{padding:20px 0;display:block}
+ul.listarch li a.link:hover span.comp{color:#000;display:block}
+ul.listarch li a.link span.comp{border:solid 1px rgba(0,0,0,.5);border-radius:3px;text-indent:0;margin-top:-3px;margin-right:50px;padding:3px 10px;float:right;display:none}
+ul.listarch li a.link span.comp:hover{color:#f4432b;border-color:#f4432b}
+#archivos{background:#fff}
+#redes .redes a{border:solid 2px #fff;border-radius:100%;font-size:65px;color:#fff;width:127px;height:127px;line-height:127px;letter-spacing:0;margin-right:10px;display:inline-block;opacity:.8}
+#redes .redes a:hover{opacity:1;cursor:pointer}
+.pub{max-width:960px;margin:0 auto;display:block}
+.copilink{cursor:pointer}
+#copilink{text-indent:-1500%;position:absolute;left:-5000%}
+#compartirpopup{background:rgba(0,0,0,.5);width:100%;height:100%;position:fixed;z-index:999;display:none}
+.modal{background:#fff;box-shadow:0 2px 3px rgba(0,0,0,.1);border-radius:3px;width:540px;margin:25px auto;position:relative;margin-top:25px;bottom:-100vh;display:none}
+.modal h1{border-bottom:solid 1px #eee;font-weight:300;font-size:18px;color:#000;letter-spacing:0;text-indent:0;margin:0;padding:15px 0;position:relative}
+.modal h1:before{font-size:16px;margin-right:5px;position:static}
+.modal h1 .fa{color:#646464}
+.modal .label{position:relative}
+.modal .label label{font-weight:400;font-size:17px;color:#000;margin-top:14px;position:absolute;left:10px}
+.modal input,.modal button{font-family:'Work Sans',sans-serif;font-weight:normal}
+.modal input{border:none;border-bottom:solid 1px #eee;font-size:16px;color:#373737;width:100%;margin:0;padding:15px 0;padding-left:50px}
+.modal .lnr.lnr-cross{color:#000;margin:18px 15px;position:absolute;right:0;opacity:.8;cursor:pointer;z-index:999}
+.modal .lnr.lnr-cross:hover{opacity:1}
+.modal p{border-bottom:solid 1px #eee;text-align:left;margin:0;padding:15px 10px}
+.listfin a:not(.link):hover,.modal p a:hover,.copilink:hover{text-decoration:underline}
+.modal p .linkmod *{color:#b4b4b4}
+.modal p .lnr.lnr-unlink{border:solid 2px #b4b4b4;border-radius:100%;width:25px;text-align:center;line-height:25px;margin-right:5px;margin-top:-4px;float:left;opacity:.5}
+.modal p .lnr.lnr-unlink.checklink{border-color:#4bdc4b;color:#4bdc4b}
+.modal p .lnr.lnr-unlink.checklink:before{content:'\e86b'}
+.modal p .copilink{float:right}
+.modal button{background:#f4432b;border:none;border-radius:3px;font-size:16px;color:#fff;margin:10px;padding:5px 10px;float:right;opacity:.9}
+.modal button:hover{opacity:1;cursor:pointer}
+.slide-up{bottom:0!important}
+.slide-down{bottom:-475px!important}
+.modal input[type=text],.modal label,.modal button{display:none}
+@media all and (max-width: 768px){
+.modal{border-radius:0;width:100%;margin:0}
+.dropzone{max-width:80%}
+.mit{width:100%;padding:0}
+.pasos .paso{width:100%;display:block}
+#contacto,#subir,#quesomos,#archivos,#redes,.mit,.centrado{position:relative;-webkit-transform-style:none!important;-moz-transform-style:none!important;transform-style:none!important;transform:none!important;height:auto;padding:50px 0}
+#contacto{margin:0}
+#contacto form{padding:0 15px}
+span.txtlink{text-overflow:ellipsis;margin-bottom:-5px;margin-left:-15px;max-width:110px;display:inline-block;overflow:hidden}
+}

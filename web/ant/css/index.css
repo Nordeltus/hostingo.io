@@ -1,0 +1,32 @@
+@import "https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700";
+html,body{background:#f4432b;font-family:'Work Sans',sans-serif;letter-spacing:-1.5px;margin:0;padding:0}
+a{text-decoration:none;color:inherit}
+#general{text-align:center;color:#fda094}
+.dropzone{background:#f4432b;color:#fff;box-shadow:0 2px 15px rgba(0,0,0,.15);border:none;border-radius:3px;font-size:25px;font-weight:300;text-align:center;max-width:600px;min-height:0;max-height:80vh;margin:0 auto;padding:50px 0;overflow:auto}
+.dropzone span.lnr.lnr-cloud-upload{font-size:50px;color:#fff}
+.dropzone .dz-default.dz-message{margin:0;padding:0}
+.dropzone .dz-default.dz-message strong{font-weight:500}
+p.link{font-size:20px}
+p.link a{color:#fff}
+p.link a:hover,.pasos .paso a:hover{text-decoration:underline}
+#subir,#quesomos,.mit{-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;transform-style:preserve-3d;height:100vh;width:100%;position:relative}
+.centrado{position:relative;top:50%;transform:translateY(-50%)}
+.linkfixed{width:100%;position:absolute;bottom:15px;left:0}
+#quesomos{background:#5BC0EB;color:#fff;overflow:hidden}
+#quesomos h1{font-size:50px;margin:0;padding:0}
+#quesomos p{font-size:25px;font-weight:300;max-width:700px;margin:25px auto;opacity:.9}
+#quesomos hr{background:#fff;border:0;width:50%;max-width:250px;height:1px;margin:0 auto 25px;display:inline-block;opacity:.4}
+.pasos{width:80%;display:table;margin:0 auto}
+.pasos .paso{display:table-cell;width:calc(100%/3)}
+.pasos .paso p{font-size:20px!important;margin:0}
+.pasos .paso span{background:#fff;box-shadow:0 2px 5px rgba(0,0,0,.2);border-radius:100%;font-size:40px;width:50px;line-height:50px;color:#5BC0EB;display:block;margin:0 auto}
+.pasos .paso a{font-weight:500}
+.mit{width:50%;float:left}
+.carac .caracmin{font-size:55px;font-weight:300;line-height:calc(100vh/3);position:relative}
+.carac .caracmin strong{background:#5BC0EB;border-radius:100%}
+.carac .caracmin span.lnr,.carac .caracmin strong:before{font-weight:300;font-size:35px;margin-top:50px;width:100%;position:absolute;left:0}
+.carac .caracmin span.lnr{font-size:85px;margin-top:25px;z-index:-1;opacity:.5}
+.carac .caracmin:nth-child(1) strong:before{content:'Espacio en disco'}
+.carac .caracmin:nth-child(2) strong:before{content:'Auto borrado'}
+.carac .caracmin:nth-child(3) strong:before{content:'Sin registro'}
+.lnr.lnr-cloud-upload{display:block}
